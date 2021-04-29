@@ -18,6 +18,8 @@ public class Player : MonoBehaviour
 
    private Rigidbody rd;
 
+   private Animator anim;
+
    //private bool onGround = false;
 
     void Start()
@@ -25,13 +27,28 @@ public class Player : MonoBehaviour
 
         rd = GetComponent<Rigidbody>();
 
+        anim = GetComponent<Animator>();
+
     }
 
     // Update is called once per frame
     void Update()
     {
+
+        if(Input.GetAxis("Vertical") != 0)
+        {
+            anim.SetInteger("Anim" , 1);
+        }
+        else
+        {
+            anim.SetInteger("Anim" , 0);
+        }
+
+
         float xDir = Input.GetAxis("Vertical") * speed * Time.deltaTime ;
         float yDir = Input.GetAxis("Horizontal") * rotSpeed  ;
+
+        //anim.SetFloat("forwar", xDir);
 
         moveVector = new Vector3 ( 0 , 0 , xDir );
         rotVector   = new Vector3(0 , yDir , 0);
