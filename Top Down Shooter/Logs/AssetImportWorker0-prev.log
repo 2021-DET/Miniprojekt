@@ -15,11 +15,11 @@ C:/Users/moham/Miniprojekt/Top Down Shooter
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60629
+59235
 Successfully changed project path to: C:/Users/moham/Miniprojekt/Top Down Shooter
 C:/Users/moham/Miniprojekt/Top Down Shooter
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 454.38 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 241.81 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.3f1 (4bef613afd59)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/Resources/UnitySubsystems
@@ -35,346 +35,705 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56200
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56440
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008671 seconds.
+Registered in 0.004676 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 296.22 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 96.06 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.717 seconds
+- Completed reload, in  5.964 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.015676 seconds.
+Registered in 0.013206 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.116 seconds
+- Completed reload, in  1.506 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
-Refreshing native plugins compatible for Editor in 2.08 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2666 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.5 MB.
-System memory in use after: 98.6 MB.
+System memory in use before: 98.6 MB.
+System memory in use after: 98.7 MB.
 
 Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3119.
-Total: 8.682400 ms (FindLiveObjects: 0.686700 ms CreateObjectMapping: 0.531500 ms MarkObjects: 7.128300 ms  DeleteObjects: 0.330600 ms)
+Total: 3.202000 ms (FindLiveObjects: 0.293100 ms CreateObjectMapping: 0.192500 ms MarkObjects: 2.557400 ms  DeleteObjects: 0.156700 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/ToonyTinyPeople/TT_soldiers_Demo/animation/m_weapon_run_rm.FBX
-  artifactKey: Guid(c0048537d6cf8f048b3f020cc6f2a35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonyTinyPeople/TT_soldiers_Demo/animation/m_weapon_run_rm.FBX using Guid(c0048537d6cf8f048b3f020cc6f2a35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e371978500659cf4e8064b3c1493ed7c') in 0.552888 seconds 
+  path: Assets/Ammunition pack (demo)/Animations/Bullet2_animations.FBX
+  artifactKey: Guid(5633705dc90ee46448834efc7f8fda28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Animations/Bullet2_animations.FBX using Guid(5633705dc90ee46448834efc7f8fda28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8073c67d4524698063091a922c1372dc') in 0.304655 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001760 seconds.
-  path: Assets/ToonyTinyPeople/TT_soldiers_Demo/animation/m_weapon_idle_B.FBX
-  artifactKey: Guid(e3caf38ba16a77949bc98ff31b5bd67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonyTinyPeople/TT_soldiers_Demo/animation/m_weapon_idle_B.FBX using Guid(e3caf38ba16a77949bc98ff31b5bd67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '386d6e6c8a07d10d07a161c7535dc799') in 0.123911 seconds 
+  Time since last request: 0.000431 seconds.
+  path: Assets/Ammunition pack (demo)/Animations/Bullet3_animations.FBX
+  artifactKey: Guid(b8cd940793484aa4bbde01c75a30bac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Animations/Bullet3_animations.FBX using Guid(b8cd940793484aa4bbde01c75a30bac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c100ad1611fda3b812990ee2aa1a9e') in 0.043795 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001199 seconds.
-  path: Assets/ToonyTinyPeople/TT_soldiers_Demo/animation/m_weapon_shoot_burst.FBX
-  artifactKey: Guid(687cb842871188646890b29f6e3b80b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonyTinyPeople/TT_soldiers_Demo/animation/m_weapon_shoot_burst.FBX using Guid(687cb842871188646890b29f6e3b80b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfb1566839fc60f02692dcf1d91f0b2a') in 0.103342 seconds 
+  Time since last request: 0.000655 seconds.
+  path: Assets/Ammunition pack (demo)/Animations
+  artifactKey: Guid(7a183f4e3eb465544838e6d6882f8aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Animations using Guid(7a183f4e3eb465544838e6d6882f8aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab17a58efb3504cd9a533a929119aee') in 0.015348 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000552 seconds.
-  path: Assets/ToonyTinyPeople/TT_soldiers_Demo/animation/m_weapon_shoot.FBX
-  artifactKey: Guid(80ab5b1ef45fca4489c63ad4e31b41a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonyTinyPeople/TT_soldiers_Demo/animation/m_weapon_shoot.FBX using Guid(80ab5b1ef45fca4489c63ad4e31b41a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ea7f78687cb612236bda3bc3b3a7e3') in 0.058369 seconds 
+  Time since last request: 0.000362 seconds.
+  path: Assets/Ammunition pack (demo)/Animations/Bullet1_animations.FBX
+  artifactKey: Guid(44c4e7f330952134eae5e89e9caf1fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Animations/Bullet1_animations.FBX using Guid(44c4e7f330952134eae5e89e9caf1fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d91c604ea7e804704cb69c85e289c45') in 0.063991 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000690 seconds.
-  path: Assets/ToonyTinyPeople/TT_soldiers_Demo/animation
-  artifactKey: Guid(0ea352ffa70bbfb46993c5a4df00d6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonyTinyPeople/TT_soldiers_Demo/animation using Guid(0ea352ffa70bbfb46993c5a4df00d6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e50ad592d92d3ee60fdea7371d06aa0') in 0.028656 seconds 
+  Time since last request: 0.000357 seconds.
+  path: Assets/Ammunition pack (demo)/Animations/Bullet7_animations.FBX
+  artifactKey: Guid(880ece80a80e24247acbf7051251de73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Animations/Bullet7_animations.FBX using Guid(880ece80a80e24247acbf7051251de73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f29322780283b3bb61360f15528174e') in 0.055867 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000726 seconds.
-  path: Assets/ToonyTinyPeople/TT_soldiers_Demo
-  artifactKey: Guid(73fd52885a744d5419ec9a59636c5d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonyTinyPeople/TT_soldiers_Demo using Guid(73fd52885a744d5419ec9a59636c5d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c4428e2e966e5e418117dfb7a4533dd') in 0.032391 seconds 
+  Time since last request: 0.000387 seconds.
+  path: Assets/Ammunition pack (demo)/Animations/Bullet5_animations.FBX
+  artifactKey: Guid(02314cf010f95eb459adce42bbb8987c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Animations/Bullet5_animations.FBX using Guid(02314cf010f95eb459adce42bbb8987c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657fdce63c89e5c0f1f32b714b9cf753') in 0.053745 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000601 seconds.
-  path: Assets/ToonyTinyPeople/TT_soldiers_Demo/animation/m_weapon_idle_A.FBX
-  artifactKey: Guid(f76657dd6f742dd4087218090ad1148c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonyTinyPeople/TT_soldiers_Demo/animation/m_weapon_idle_A.FBX using Guid(f76657dd6f742dd4087218090ad1148c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0e14cb0e2e330096433f8d6c167e89d') in 0.040982 seconds 
+  Time since last request: 0.000539 seconds.
+  path: Assets/Ammunition pack (demo)/Animations/Bullet4_animations.FBX
+  artifactKey: Guid(8f267c898b432c849899dbab0300f2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Animations/Bullet4_animations.FBX using Guid(8f267c898b432c849899dbab0300f2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ef0ac9bdb04547f76bd8088d29b72e') in 0.054793 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000562 seconds.
-  path: Assets/ToonyTinyPeople/TT_soldiers_Demo/animation/m_weapon_run.FBX
-  artifactKey: Guid(5af874656ec2e434b80f9647d65942a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonyTinyPeople/TT_soldiers_Demo/animation/m_weapon_run.FBX using Guid(5af874656ec2e434b80f9647d65942a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d7f2417d9da3b3a82e90430203bc405') in 0.061028 seconds 
+  Time since last request: 0.000323 seconds.
+  path: Assets/Ammunition pack (demo)/Animations/Bullet8_animations.FBX
+  artifactKey: Guid(e871e009dcc1a0142b9c5e480d6e021c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Animations/Bullet8_animations.FBX using Guid(e871e009dcc1a0142b9c5e480d6e021c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc42961f0200cf2fe4e02e269e0d60d') in 0.048627 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 698.095720 seconds.
-  path: Assets/Animation
-  artifactKey: Guid(5c73fcf2b546591459609eb71b58dff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation using Guid(5c73fcf2b546591459609eb71b58dff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f845785841f5783fe1a5113ca232bbf7') in 0.033780 seconds 
+  Time since last request: 0.000438 seconds.
+  path: Assets/Ammunition pack (demo)/Materials
+  artifactKey: Guid(fa0006f8177e3f6419a131b7d38573db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Materials using Guid(fa0006f8177e3f6419a131b7d38573db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d14c2a3587cf968f28e1f8dd786985f') in 0.013677 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.450240 seconds.
-  path: Assets/Animation/New Animator Controller.controller
-  artifactKey: Guid(864125e6e727e444b957cd2b2c841f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/New Animator Controller.controller using Guid(864125e6e727e444b957cd2b2c841f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28476bff30d91a66067bb4777a0af268') in 0.039499 seconds 
+  Time since last request: 0.000342 seconds.
+  path: Assets/Ammunition pack (demo)/Animations/Bullet6_animations.FBX
+  artifactKey: Guid(ab7e4f873f1725f4ca4a4f629d85d0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Animations/Bullet6_animations.FBX using Guid(ab7e4f873f1725f4ca4a4f629d85d0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d35a08fdd5855d33bd0bf5f43a86c92') in 0.056172 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 232.873603 seconds.
-  path: Assets/Animation/Player.controller
-  artifactKey: Guid(864125e6e727e444b957cd2b2c841f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Player.controller using Guid(864125e6e727e444b957cd2b2c841f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1231bfd7bb76bc481349c70f4cb621ba') in 0.034639 seconds 
+  Time since last request: 11.480564 seconds.
+  path: Assets/Ammunition pack (demo)/Meshes
+  artifactKey: Guid(70616657e152c1649a65b3b1bbc6cb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Meshes using Guid(70616657e152c1649a65b3b1bbc6cb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc675bd3a11c75d0bf0b4ebb0cf3433b') in 0.022604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.100175 seconds.
+  path: Assets/Ammunition pack (demo)/Meshes/Bullet1.FBX
+  artifactKey: Guid(ff419cf9e460bab428084b82c5ac3d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Meshes/Bullet1.FBX using Guid(ff419cf9e460bab428084b82c5ac3d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466e45e0d827397778c117dbb0313a36') in 0.066783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000711 seconds.
+  path: Assets/Ammunition pack (demo)/Meshes/Bullet2.FBX
+  artifactKey: Guid(b2f695bc23f31d848a2fbf5103689a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Meshes/Bullet2.FBX using Guid(b2f695bc23f31d848a2fbf5103689a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff0f96b4a93ad2036131b530458477f') in 0.067919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000702 seconds.
+  path: Assets/Ammunition pack (demo)/Meshes/Bullet5.FBX
+  artifactKey: Guid(3ea76e574d0118b4aab293180faf9ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Meshes/Bullet5.FBX using Guid(3ea76e574d0118b4aab293180faf9ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d481764ea0ea9c38d4466cb49431db') in 0.074720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/Ammunition pack (demo)/Meshes/Bullet4.FBX
+  artifactKey: Guid(91a12132339e19346a35e07960f4ef02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Meshes/Bullet4.FBX using Guid(91a12132339e19346a35e07960f4ef02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c20b2c63fa5a53c39ca001994a0d86f8') in 0.059617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Ammunition pack (demo)/Meshes/Bullet3.FBX
+  artifactKey: Guid(028f3920425cc6540a649d74d0df2442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Meshes/Bullet3.FBX using Guid(028f3920425cc6540a649d74d0df2442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '885b75c745a90a5c6598c7c7b0525222') in 0.034314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Ammunition pack (demo)/Meshes/Bullet8.FBX
+  artifactKey: Guid(76e1b756b9c1ad4438a1c6d4f71ee8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Meshes/Bullet8.FBX using Guid(76e1b756b9c1ad4438a1c6d4f71ee8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2244f074e734f85d83e481b8fa7c7c6') in 0.036929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/Ammunition pack (demo)/Meshes/Bullet6.FBX
+  artifactKey: Guid(32229c95e1aa3f7459af64aff3f449a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Meshes/Bullet6.FBX using Guid(32229c95e1aa3f7459af64aff3f449a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '627a526384b5455d0a638e30544230b7') in 0.473501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Ammunition pack (demo)/Meshes/Bullet7.FBX
+  artifactKey: Guid(14ae9fc8d1294c842a7b38656a47dddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Meshes/Bullet7.FBX using Guid(14ae9fc8d1294c842a7b38656a47dddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63b8d790edaa9a7b5ec61ca048c4a9f0') in 0.032255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.669828 seconds.
+  path: Assets/Ammunition pack (demo)/Prefabs/Bullet1(1).prefab
+  artifactKey: Guid(2ce15a1900ef14a459f78260cd05a3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Prefabs/Bullet1(1).prefab using Guid(2ce15a1900ef14a459f78260cd05a3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e799c835825492d10eed10f19fdd51') in 0.104428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001034 seconds.
+  path: Assets/Ammunition pack (demo)/Prefabs/Bullet4.prefab
+  artifactKey: Guid(424570faa59c41248b97fd39edf5d414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Prefabs/Bullet4.prefab using Guid(424570faa59c41248b97fd39edf5d414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f684b2a11bb8955a864b589d7c6db07d') in 0.071672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001130 seconds.
+  path: Assets/Ammunition pack (demo)/Prefabs/Bullet1(2).prefab
+  artifactKey: Guid(8306882d88a96b64291460c8d7664f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Prefabs/Bullet1(2).prefab using Guid(8306882d88a96b64291460c8d7664f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3744a6477a98a2ee8bc054f61c5c9d2') in 0.049795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000682 seconds.
+  path: Assets/Ammunition pack (demo)/Prefabs/Bullet5(1).prefab
+  artifactKey: Guid(24f33896717e2634e82cd2f95a8b8da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Prefabs/Bullet5(1).prefab using Guid(24f33896717e2634e82cd2f95a8b8da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0ff4d5d83b4c49238bab099bff7e5d') in 0.046176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000594 seconds.
+  path: Assets/Ammunition pack (demo)/Prefabs/Bullet5(2).prefab
+  artifactKey: Guid(dfd2458e1a259fb4cb8df717dcf151cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Prefabs/Bullet5(2).prefab using Guid(dfd2458e1a259fb4cb8df717dcf151cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1da31ea5f04c944922d2630936f341f1') in 0.027750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Ammunition pack (demo)/Prefabs/Bullet5(3).prefab
+  artifactKey: Guid(e81de46ed97367e40a14344a282773db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Prefabs/Bullet5(3).prefab using Guid(e81de46ed97367e40a14344a282773db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '237f5b5f407f80209abc914fe1240c3d') in 0.030204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Ammunition pack (demo)/Prefabs/Bullet7(3).prefab
+  artifactKey: Guid(8450b3fba93f2e0478311468c3d3e969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Prefabs/Bullet7(3).prefab using Guid(8450b3fba93f2e0478311468c3d3e969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f9dcb3cb27e11f61cb3e6c1dd320808') in 0.033759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/Ammunition pack (demo)/Prefabs/Bullet2(2).prefab
+  artifactKey: Guid(f6b31320c619d6243a0cbdd32d3e2d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Prefabs/Bullet2(2).prefab using Guid(f6b31320c619d6243a0cbdd32d3e2d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '076c72e12aa8a3992c0916feb336be79') in 0.042792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000786 seconds.
+  path: Assets/Ammunition pack (demo)/Prefabs/Bullet6.prefab
+  artifactKey: Guid(88523427b2cadfb4fba0cfb821866b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Prefabs/Bullet6.prefab using Guid(88523427b2cadfb4fba0cfb821866b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b5d01da80be1994f4f4ffa598e442b1') in 0.039175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/Ammunition pack (demo)/Prefabs/Bullet8.prefab
+  artifactKey: Guid(3b79e6f8a415f7841a8a55733c4683cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Prefabs/Bullet8.prefab using Guid(3b79e6f8a415f7841a8a55733c4683cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3977b4ce2d232f15e97c1e34f30bef18') in 0.034513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/Ammunition pack (demo)/Prefabs/Bullet3(1).prefab
+  artifactKey: Guid(4c003a2f4a2bea64895c09477a013d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Prefabs/Bullet3(1).prefab using Guid(4c003a2f4a2bea64895c09477a013d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87009ddaddb44a52ceabb54772ecd914') in 0.046574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000530 seconds.
+  path: Assets/Ammunition pack (demo)/Prefabs/Bullet2(1).prefab
+  artifactKey: Guid(7af6b07676c52b94ba63b3fa7ff7d0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Prefabs/Bullet2(1).prefab using Guid(7af6b07676c52b94ba63b3fa7ff7d0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e96ae3e016975f67e9dd6cbde0436567') in 0.040586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000457 seconds.
+  path: Assets/Ammunition pack (demo)/Prefabs/Bullet3(2).prefab
+  artifactKey: Guid(ec4809a5aeed80242a4e3bd1cbd40381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Prefabs/Bullet3(2).prefab using Guid(ec4809a5aeed80242a4e3bd1cbd40381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ffee83e3d71aa0caf53d99afa8f88ea') in 0.037463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000448 seconds.
+  path: Assets/Ammunition pack (demo)/Prefabs/Bullet1(3).prefab
+  artifactKey: Guid(1e15d82f04b99aa4c9b28e87530510d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Prefabs/Bullet1(3).prefab using Guid(1e15d82f04b99aa4c9b28e87530510d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab26c67a44624f3222ffbf8726bf22ea') in 0.027530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Ammunition pack (demo)/Prefabs/Bullet7(1).prefab
+  artifactKey: Guid(a29f086d60ac66547b74eacc738e8445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Prefabs/Bullet7(1).prefab using Guid(a29f086d60ac66547b74eacc738e8445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8400f483449283c4bc5ae76f41d9b54c') in 0.026194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Ammunition pack (demo)/Prefabs/Bullet7(2).prefab
+  artifactKey: Guid(df642b0b5b03a554f8f5233ce28cbba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Prefabs/Bullet7(2).prefab using Guid(df642b0b5b03a554f8f5233ce28cbba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a26c8532108041e5141bda651de571c0') in 0.030232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 296.203835 seconds.
+  path: Assets/Ammunition pack (demo)/Textures/Bullet1_diffuse1.tga
+  artifactKey: Guid(30fcefff8373d6c4fa567c23ded3a8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Textures/Bullet1_diffuse1.tga using Guid(30fcefff8373d6c4fa567c23ded3a8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d0b6554d28e9a8eb11d219d41007a8') in 0.130481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001089 seconds.
+  path: Assets/Ammunition pack (demo)/Textures/Bullet7_metallic3.tga
+  artifactKey: Guid(068d77f9f73ef104987a648cf6f9d4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Textures/Bullet7_metallic3.tga using Guid(068d77f9f73ef104987a648cf6f9d4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9efea2fb7524e3df79c2dec540cd19') in 0.047414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/Ammunition pack (demo)/Textures/Bullet2_normal1.tga
+  artifactKey: Guid(83d641e9e1882ed4595a61851a816e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Textures/Bullet2_normal1.tga using Guid(83d641e9e1882ed4595a61851a816e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee538aed02c095f72d7e86c16263b537') in 0.060941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Ammunition pack (demo)/Textures/Bullet7_metallic2.tga
+  artifactKey: Guid(2d1c9b8f2f1d5c648b2eb0d8fe677ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Textures/Bullet7_metallic2.tga using Guid(2d1c9b8f2f1d5c648b2eb0d8fe677ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddcf2215fc7dc54cccb6326aa1672804') in 0.026143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Ammunition pack (demo)/Textures/Bullet7_diffuse3.tga
+  artifactKey: Guid(aefc0aa532cf2554da4466e9e2d8616b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Textures/Bullet7_diffuse3.tga using Guid(aefc0aa532cf2554da4466e9e2d8616b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06575f340f14471dd368a5aa7440686e') in 0.032917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000464 seconds.
+  path: Assets/Ammunition pack (demo)/Textures/Bullet6_metallic.tga
+  artifactKey: Guid(327d0d734219a2446b71b950a67232b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Textures/Bullet6_metallic.tga using Guid(327d0d734219a2446b71b950a67232b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47b1e6d55aa849cc0b0b7dc076c0e120') in 0.029598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000857 seconds.
+  path: Assets/Ammunition pack (demo)/Textures/Bullet5_metallic.tga
+  artifactKey: Guid(cb5921ac99413c14d8625d3231c17e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Textures/Bullet5_metallic.tga using Guid(cb5921ac99413c14d8625d3231c17e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c759ea6582800a7acbe506c91e01e22f') in 0.036138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000604 seconds.
+  path: Assets/Ammunition pack (demo)/Textures/Bullet7_diffuse1.tga
+  artifactKey: Guid(a4249f3354abefe4b8c773a81a76c2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Textures/Bullet7_diffuse1.tga using Guid(a4249f3354abefe4b8c773a81a76c2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63b9b6501041ecc8615dce59a054fbda') in 0.031453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Ammunition pack (demo)/Textures/Bullet3_diffuse2.tga
+  artifactKey: Guid(711f2af3abcc42d429f3cc4964d7a447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Textures/Bullet3_diffuse2.tga using Guid(711f2af3abcc42d429f3cc4964d7a447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd7152d354429147e3a88bd4a9be459') in 0.031566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000524 seconds.
+  path: Assets/Ammunition pack (demo)/Textures/Bullet5_diffuse2.tga
+  artifactKey: Guid(e86d4da85a76d91409a0a13069c862a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Textures/Bullet5_diffuse2.tga using Guid(e86d4da85a76d91409a0a13069c862a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbbe4b2dcc718ab081d5831f84254c2e') in 0.031037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
+  path: Assets/Ammunition pack (demo)/Textures/Bullet8_Substance_Bullet8_mat_Normal.tga
+  artifactKey: Guid(d050a16db72148042985f40878793f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Textures/Bullet8_Substance_Bullet8_mat_Normal.tga using Guid(d050a16db72148042985f40878793f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c61e76800c949ed13b64372420bb96') in 0.034282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/Ammunition pack (demo)/Textures/Bullet5_normal.tga
+  artifactKey: Guid(6bf8a5720228ccc4280b59b7c7eec833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Textures/Bullet5_normal.tga using Guid(6bf8a5720228ccc4280b59b7c7eec833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c3009fd23fbdf1ab96e1d5fa755427') in 0.038915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Ammunition pack (demo)/Textures/Bullet1_normal2,3.tga
+  artifactKey: Guid(49cfe39cc0a83564e9119afea7655acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Textures/Bullet1_normal2,3.tga using Guid(49cfe39cc0a83564e9119afea7655acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1cdb85eb5dd45f8c551caa3ef49f7b') in 0.030677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Ammunition pack (demo)/Textures/Bullet1_metallic.tga
+  artifactKey: Guid(40fea0bad5f94ce4fa85947631f7e9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Textures/Bullet1_metallic.tga using Guid(40fea0bad5f94ce4fa85947631f7e9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e9ead9f4e63df0337eb73665e9c6809') in 0.038547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Ammunition pack (demo)/Textures/Bullet4_normal.tga
+  artifactKey: Guid(9c557eef648b0ca4485a3381e25f8bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Textures/Bullet4_normal.tga using Guid(9c557eef648b0ca4485a3381e25f8bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b12f9e680dac39d29ca43c552294cdb5') in 0.031604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Ammunition pack (demo)/Textures/Bullet3_normal1,2.tga
+  artifactKey: Guid(99010b201b45a31459cc5d56a3be9a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Textures/Bullet3_normal1,2.tga using Guid(99010b201b45a31459cc5d56a3be9a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87125e2a0d86ad50cbc31c18ac7c3802') in 0.042324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Ammunition pack (demo)/Textures/Bullet7_diffuse2.tga
+  artifactKey: Guid(73a4e936f33ce7f4a8f7689b6ba9cd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Textures/Bullet7_diffuse2.tga using Guid(73a4e936f33ce7f4a8f7689b6ba9cd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '537664e4493e80df0bc8baac17209bb2') in 0.038062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Ammunition pack (demo)/Textures/Bullet7_normal1,2,3.tga
+  artifactKey: Guid(e307ad4834b20414e894771232d3fd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Textures/Bullet7_normal1,2,3.tga using Guid(e307ad4834b20414e894771232d3fd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24591e768aae07f2bf3a785ec8b26b48') in 0.032943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/Ammunition pack (demo)/Textures/Bullet2_metallic2.tga
+  artifactKey: Guid(7d122f3d3f4101f4ebe6658139952462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Textures/Bullet2_metallic2.tga using Guid(7d122f3d3f4101f4ebe6658139952462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b024e786deeb392a4e9e6ab65c37c91') in 0.039499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Ammunition pack (demo)/Textures/Bullet3_diffuse1.tga
+  artifactKey: Guid(f30d8f2e796f36645ba47e6d96aca1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Textures/Bullet3_diffuse1.tga using Guid(f30d8f2e796f36645ba47e6d96aca1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '363f05f37e47c439ec15003eeddac875') in 0.037161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Ammunition pack (demo)/Textures/Bullet2_normal2.tga
+  artifactKey: Guid(8fa7f517d37bc5e48bc3a8f889248993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Textures/Bullet2_normal2.tga using Guid(8fa7f517d37bc5e48bc3a8f889248993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e8b4cb92f994ce987ab6172d1096f29') in 0.031346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Ammunition pack (demo)/Textures/Bullet4_diffuse.tga
+  artifactKey: Guid(613785cbe4d6fdd4d9d01ca31c110888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Textures/Bullet4_diffuse.tga using Guid(613785cbe4d6fdd4d9d01ca31c110888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '332c2142c66217c00ce3c75245971762') in 0.039400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Ammunition pack (demo)/Textures/Bullet1_normal1.tga
+  artifactKey: Guid(d31ca25eaa121c946b796653b7ad0391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Textures/Bullet1_normal1.tga using Guid(d31ca25eaa121c946b796653b7ad0391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '417ffe8727be94700318b60e5f94b2fd') in 0.030786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/Ammunition pack (demo)/Textures/Bullet6_diffuse.tga
+  artifactKey: Guid(bda533f36e338d24194a292a9dab7445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Textures/Bullet6_diffuse.tga using Guid(bda533f36e338d24194a292a9dab7445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be9a9f1eec7135afff858341b573bbb7') in 0.035628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Ammunition pack (demo)/Textures/Bullet1_diffuse2.tga
+  artifactKey: Guid(58e3e1334ad300241b423bf860db81f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Textures/Bullet1_diffuse2.tga using Guid(58e3e1334ad300241b423bf860db81f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeffc059a3acf666aa035e91956b61c3') in 0.029296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000750 seconds.
+  path: Assets/Ammunition pack (demo)/Textures/Bullet5_diffuse3.tga
+  artifactKey: Guid(09dce65b88a1be3408ffb5817709b8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Textures/Bullet5_diffuse3.tga using Guid(09dce65b88a1be3408ffb5817709b8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a0ada9ead1310864944d1a1624af40e') in 0.036169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/Ammunition pack (demo)/Textures/Bullet2_metallic1.tga
+  artifactKey: Guid(a53a252606e53f6489671364ced88db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Textures/Bullet2_metallic1.tga using Guid(a53a252606e53f6489671364ced88db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd96c4cab2247a76ef711f78413269343') in 0.036234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Ammunition pack (demo)/Textures/Bullet2_diffuse2.tga
+  artifactKey: Guid(a8e146f9ffa5c1f4e97be825f488ca9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Textures/Bullet2_diffuse2.tga using Guid(a8e146f9ffa5c1f4e97be825f488ca9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b21ca98acda9ccb01bf623bfac034f2a') in 0.031743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/Ammunition pack (demo)/Textures/Bullet3_metallic1,2.tga
+  artifactKey: Guid(2261687d96aa46d48831349d1bb64fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Textures/Bullet3_metallic1,2.tga using Guid(2261687d96aa46d48831349d1bb64fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd00ac91275e6ee60488a9339c7e3c7dd') in 0.034238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009603 seconds.
+  path: Assets/Ammunition pack (demo)/Textures/Bullet4_metallic.tga
+  artifactKey: Guid(9ad56495adf899c47b8cb7ec44ad63f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Textures/Bullet4_metallic.tga using Guid(9ad56495adf899c47b8cb7ec44ad63f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '733e55fb25e9659a9c7f0aa7115eccc0') in 0.044439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009366 seconds.
+  path: Assets/Ammunition pack (demo)/Textures/Bullet8_Substance_Bullet8_mat_AlbedoTransparency.tga
+  artifactKey: Guid(5854edc770c850240a378bd6102d6000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Textures/Bullet8_Substance_Bullet8_mat_AlbedoTransparency.tga using Guid(5854edc770c850240a378bd6102d6000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '470d68d50cc2846f3755b63e439c6f8c') in 0.045071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015645 seconds.
+  path: Assets/Ammunition pack (demo)/Textures/Bullet1_diffuse3.tga
+  artifactKey: Guid(7a691c039fd73de44b0ee1a28b782307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Textures/Bullet1_diffuse3.tga using Guid(7a691c039fd73de44b0ee1a28b782307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd381f297a5bd08db1292b75774e657d1') in 0.050308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Ammunition pack (demo)/Textures/Bullet7_metallic1.tga
+  artifactKey: Guid(5e77b9cc11a2af0478cd1f89f680e62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Textures/Bullet7_metallic1.tga using Guid(5e77b9cc11a2af0478cd1f89f680e62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0bd5309bd9098df870da21c98325ab8') in 0.035435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000621 seconds.
+  path: Assets/Ammunition pack (demo)/Textures/Bullet8_Substance_Bullet8_mat_MetallicSmoothness.tga
+  artifactKey: Guid(f66fd5eda6950f1488746a361f9d37ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Textures/Bullet8_Substance_Bullet8_mat_MetallicSmoothness.tga using Guid(f66fd5eda6950f1488746a361f9d37ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3dde4fcbe6595a7c139e90001a7f1a4') in 0.035742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/Ammunition pack (demo)/Textures/Bullet5_diffuse1.tga
+  artifactKey: Guid(8ec575a0a13c31c4c86119ed8c930b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Textures/Bullet5_diffuse1.tga using Guid(8ec575a0a13c31c4c86119ed8c930b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685b8abf57b31122af483a06c56e6936') in 0.060136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003851 seconds.
+  path: Assets/Ammunition pack (demo)/Textures/Bullet6_normal.tga
+  artifactKey: Guid(825b671eae0d1f448a50a3b4328e8b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Textures/Bullet6_normal.tga using Guid(825b671eae0d1f448a50a3b4328e8b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c70addbe5bacc4cc43a9ebf5c440d2f') in 0.031409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000731 seconds.
+  path: Assets/Ammunition pack (demo)/Textures/Bullet2_diffuse1.tga
+  artifactKey: Guid(7f126e67c1cfb8b43962f35fd1fadc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Textures/Bullet2_diffuse1.tga using Guid(7f126e67c1cfb8b43962f35fd1fadc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45aa403700ed3b071da16ddab384624a') in 0.035318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.147122 seconds.
+  path: Assets/Ammunition pack (demo)/Materials/Bullet1_mat(1).mat
+  artifactKey: Guid(a9b4fec9d71bd2147b7c657e369a5689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Materials/Bullet1_mat(1).mat using Guid(a9b4fec9d71bd2147b7c657e369a5689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d37f6510a8ede9e7c9a4bdc7e831e62') in 0.145049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/Ammunition pack (demo)/Materials/Bullet3_mat(1).mat
+  artifactKey: Guid(06f6b30dedb2d4046b08c67bcf6deccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Materials/Bullet3_mat(1).mat using Guid(06f6b30dedb2d4046b08c67bcf6deccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16a30f3bf2010c81fe9ac9715275ab2e') in 0.042854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/Ammunition pack (demo)/Materials/Bullet7_mat(3).mat
+  artifactKey: Guid(adb04a67df56efb4a8cb3de5fae79543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Materials/Bullet7_mat(3).mat using Guid(adb04a67df56efb4a8cb3de5fae79543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d76947b8d8f8c011431a65bf3ddfa2f') in 0.039514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Ammunition pack (demo)/Materials/Bullet4_mat.mat
+  artifactKey: Guid(03cf17cedb09cf6468771788ef38d1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Materials/Bullet4_mat.mat using Guid(03cf17cedb09cf6468771788ef38d1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d94b25fb47dff59ddfb70b87249f2fd') in 0.045593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Ammunition pack (demo)/Materials/Bullet5_mat(2).mat
+  artifactKey: Guid(c3324b5764d20144fa78a5e2d8a9eb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Materials/Bullet5_mat(2).mat using Guid(c3324b5764d20144fa78a5e2d8a9eb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57683cca6ea99afd791a7011a4b11e6d') in 0.042818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Ammunition pack (demo)/Materials/Bullet7_mat(1).mat
+  artifactKey: Guid(f71a85d3b32991e48aae940a0b6d0384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Materials/Bullet7_mat(1).mat using Guid(f71a85d3b32991e48aae940a0b6d0384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29b91f6d1adbb2221262ede739365dd7') in 0.036777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/Ammunition pack (demo)/Materials/Bullet8_mat.mat
+  artifactKey: Guid(d71231cfc1ddd2f468bf250085a8853e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Materials/Bullet8_mat.mat using Guid(d71231cfc1ddd2f468bf250085a8853e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f540175c39e8e287415b614db8bc63ec') in 0.037205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Ammunition pack (demo)/Materials/Platform_mat.mat
+  artifactKey: Guid(dc373e2b02159094eaa68fa84e24cb5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Materials/Platform_mat.mat using Guid(dc373e2b02159094eaa68fa84e24cb5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c5c2e8225e10bc7568c9289b933d27') in 0.215640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Ammunition pack (demo)/Materials/Bullet1_mat(3).mat
+  artifactKey: Guid(20bb3334b21e6e041b545a8605f313cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Materials/Bullet1_mat(3).mat using Guid(20bb3334b21e6e041b545a8605f313cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab53f1eb4620f888f1c58bd7c36bcde') in 0.042057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000495 seconds.
+  path: Assets/Ammunition pack (demo)/Materials/Bullet6_mat.mat
+  artifactKey: Guid(d474d02838cc593409f65844af6d2fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Materials/Bullet6_mat.mat using Guid(d474d02838cc593409f65844af6d2fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f7d041543b50f7f51eb8acba842c67') in 0.035944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000754 seconds.
+  path: Assets/Ammunition pack (demo)/Materials/Bullet2_mat(2).mat
+  artifactKey: Guid(d9914e967ec3658459d4a5b61c97cde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Materials/Bullet2_mat(2).mat using Guid(d9914e967ec3658459d4a5b61c97cde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46231bd3620f45428bd315d0cb2605d6') in 0.036846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Ammunition pack (demo)/Materials/Bullet2_mat(1).mat
+  artifactKey: Guid(fc0e52ec46c8685419a3afc53ee966e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Materials/Bullet2_mat(1).mat using Guid(fc0e52ec46c8685419a3afc53ee966e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c154bc48fe7d719fe236e48f55919ab') in 0.039267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Ammunition pack (demo)/Materials/Bullet5_mat(1).mat
+  artifactKey: Guid(41b2e6ab168c0804d87ace71626b6407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Materials/Bullet5_mat(1).mat using Guid(41b2e6ab168c0804d87ace71626b6407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae421f3e933a7db69a00367b34cc0a30') in 0.037702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Ammunition pack (demo)/Materials/Bullet3_mat(2).mat
+  artifactKey: Guid(0db69b6bf0c8ee04a8ea5f7aedfbef66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Materials/Bullet3_mat(2).mat using Guid(0db69b6bf0c8ee04a8ea5f7aedfbef66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a623845d213669db58754dfd515f0ce2') in 0.037859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000496 seconds.
+  path: Assets/Ammunition pack (demo)/Materials/Bullet5_mat(3).mat
+  artifactKey: Guid(6abfa12a63688b241a423afad4eca488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Materials/Bullet5_mat(3).mat using Guid(6abfa12a63688b241a423afad4eca488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e4c04eec9a9b207808997c69015f6ca') in 0.040460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Ammunition pack (demo)/Materials/Bullet7_mat(2).mat
+  artifactKey: Guid(2268a2ca378a80a4099f75828517fe5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Materials/Bullet7_mat(2).mat using Guid(2268a2ca378a80a4099f75828517fe5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061c4642028f4b3cbc78494aa7abd721') in 0.040109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Ammunition pack (demo)/Materials/Bullet1_mat(2).mat
+  artifactKey: Guid(186ddbbcd6223094d8569ceb283300b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Materials/Bullet1_mat(2).mat using Guid(186ddbbcd6223094d8569ceb283300b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3be6366a559b11860b4c6e3db6a196') in 0.042272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 477.770757 seconds.
+  path: Assets/Bullet2(1).prefab
+  artifactKey: Guid(a597c201835f4d143bdd6273e5e0c12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullet2(1).prefab using Guid(a597c201835f4d143bdd6273e5e0c12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f90af7c3ed68463b524eff5205f3ea6') in 0.030998 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005168 seconds.
+Registered in 0.004156 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.96 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.773 seconds
+- Completed reload, in  1.829 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.96 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2661 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.5 MB.
-System memory in use after: 98.7 MB.
+Unloading 2699 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 171.5 MB.
+System memory in use after: 171.7 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3122.
-Total: 4.261200 ms (FindLiveObjects: 0.392200 ms CreateObjectMapping: 0.293100 ms MarkObjects: 3.431800 ms  DeleteObjects: 0.140700 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3725.
+Total: 10.461800 ms (FindLiveObjects: 1.018600 ms CreateObjectMapping: 0.654100 ms MarkObjects: 8.485600 ms  DeleteObjects: 0.298000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 988.215086 seconds.
-  path: Assets/Scripts/Player.cs
-  artifactKey: Guid(eb9573960ba3e8840a0f9ea1222bb948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player.cs using Guid(eb9573960ba3e8840a0f9ea1222bb948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a88a4b1d917a2f8af8b524dc9033d2e') in 0.083491 seconds 
+  Time since last request: 93.136384 seconds.
+  path: Assets/Shooting.cs
+  artifactKey: Guid(c2447ec8aa0786c4f9826bbdfa3311a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shooting.cs using Guid(c2447ec8aa0786c4f9826bbdfa3311a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1ad2b6b0c109ee8a5909246ec3a475') in 0.041280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 513.867210 seconds.
+  path: Assets/Shooting.cs
+  artifactKey: Guid(c2447ec8aa0786c4f9826bbdfa3311a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shooting.cs using Guid(c2447ec8aa0786c4f9826bbdfa3311a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '117da3dc06736418d07e3638d352c629') in 0.004596 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006004 seconds.
+Registered in 0.006750 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.849 seconds
+- Completed reload, in  1.281 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2661 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.5 MB.
-System memory in use after: 98.7 MB.
+Unloading 2662 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.3 MB.
+System memory in use after: 170.6 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3125.
-Total: 3.831000 ms (FindLiveObjects: 0.369900 ms CreateObjectMapping: 0.257300 ms MarkObjects: 3.094200 ms  DeleteObjects: 0.107400 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3728.
+Total: 4.650700 ms (FindLiveObjects: 0.557900 ms CreateObjectMapping: 0.600000 ms MarkObjects: 3.390400 ms  DeleteObjects: 0.100500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 23.552039 seconds.
-  path: Assets/Scripts/Player.cs
-  artifactKey: Guid(eb9573960ba3e8840a0f9ea1222bb948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player.cs using Guid(eb9573960ba3e8840a0f9ea1222bb948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e47aa98f55f73d66984cb6eb4d5eb4') in 0.013564 seconds 
+  Time since last request: 335.741665 seconds.
+  path: Assets/Shooting.cs
+  artifactKey: Guid(c2447ec8aa0786c4f9826bbdfa3311a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shooting.cs using Guid(c2447ec8aa0786c4f9826bbdfa3311a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9fe7e42b524450900c8c9715663f1e1') in 0.014025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 157.911124 seconds.
+  path: Assets/Player.controller
+  artifactKey: Guid(0696accf44092d246acdce7b4d453855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player.controller using Guid(0696accf44092d246acdce7b4d453855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff12aaac14b9f946c8c473a02152a803') in 0.062139 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.024072 seconds.
+Registered in 0.005560 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.602 seconds
+- Completed reload, in  1.385 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.06 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2661 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.6 MB.
-System memory in use after: 98.8 MB.
+Unloading 2662 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.4 MB.
+System memory in use after: 170.6 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3128.
-Total: 5.467900 ms (FindLiveObjects: 0.474300 ms CreateObjectMapping: 0.315900 ms MarkObjects: 4.541100 ms  DeleteObjects: 0.133300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 213.224809 seconds.
-  path: Assets/ToonyTinyPeople/TT_soldiers_Demo/model/TT_Soldiers_Demo.FBX
-  artifactKey: Guid(7b36a186c6950424394704a9292a7114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonyTinyPeople/TT_soldiers_Demo/model/TT_Soldiers_Demo.FBX using Guid(7b36a186c6950424394704a9292a7114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48366a77d02a10d2bc9bb5b98d9e6039') in 0.559328 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 43.468013 seconds.
-  path: Assets/ToonyTinyPeople/TT_soldiers_Demo/Demo_sample_scene
-  artifactKey: Guid(c23ea3828ee43c74384544f1cb8f46b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonyTinyPeople/TT_soldiers_Demo/Demo_sample_scene using Guid(c23ea3828ee43c74384544f1cb8f46b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f214f598d173a6feed122be0d06bda') in 0.045809 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 36.054685 seconds.
-  path: Assets/ToonyTinyPeople/TT_soldiers_Demo/Demo_sample_scene/animation_samples
-  artifactKey: Guid(7f6afc23a9023a64ebcf329839332d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonyTinyPeople/TT_soldiers_Demo/Demo_sample_scene/animation_samples using Guid(7f6afc23a9023a64ebcf329839332d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded76eb3f573e465f34d480ab69388ba') in 0.048270 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.804011 seconds.
-  path: Assets/ToonyTinyPeople/TT_soldiers_Demo/Demo_sample_scene/ground.mat
-  artifactKey: Guid(fac272536e5a55040abe7ba6644d6e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonyTinyPeople/TT_soldiers_Demo/Demo_sample_scene/ground.mat using Guid(fac272536e5a55040abe7ba6644d6e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e07115e2ccae25d1a84238f48874353') in 0.273379 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000752 seconds.
-  path: Assets/ToonyTinyPeople/TT_soldiers_Demo/Demo_sample_scene/quad.tga
-  artifactKey: Guid(721349de92b4f9f46b619fd961e74c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonyTinyPeople/TT_soldiers_Demo/Demo_sample_scene/quad.tga using Guid(721349de92b4f9f46b619fd961e74c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e03858c706d9b9e7519320743be1e2') in 0.149662 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.965245 seconds.
-  path: Assets/ToonyTinyPeople/TT_soldiers_Demo/Demo_sample_scene/animation_samples/weapon_idle.controller
-  artifactKey: Guid(94d76f859419a5048a2d6cf80ef45f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonyTinyPeople/TT_soldiers_Demo/Demo_sample_scene/animation_samples/weapon_idle.controller using Guid(94d76f859419a5048a2d6cf80ef45f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5218d05cf213baf2efc0441323815e56') in 0.065828 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 37.559224 seconds.
-  path: Assets/ToonyTinyPeople/TT_soldiers_Demo/model/materials
-  artifactKey: Guid(4918428999fa3b643b9cab147af5f4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonyTinyPeople/TT_soldiers_Demo/model/materials using Guid(4918428999fa3b643b9cab147af5f4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eeaf08e875f7971cf75d318adc924ce') in 0.022907 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.881522 seconds.
-  path: Assets/ToonyTinyPeople/TT_soldiers_Demo/model/materials/TTS_Demo_material.mat
-  artifactKey: Guid(567681dbfb9f1994584c4a77df698d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonyTinyPeople/TT_soldiers_Demo/model/materials/TTS_Demo_material.mat using Guid(567681dbfb9f1994584c4a77df698d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd76e126a3d026449c3ededd645f9a3cb') in 0.075524 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001428 seconds.
-  path: Assets/ToonyTinyPeople/TT_soldiers_Demo/model/materials/TTS_Demo_texture.tga
-  artifactKey: Guid(6ad795c0cb8b5bb40bd0d43fb13dc0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonyTinyPeople/TT_soldiers_Demo/model/materials/TTS_Demo_texture.tga using Guid(6ad795c0cb8b5bb40bd0d43fb13dc0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '515c2d68b7e102ee6f3b7090529e95b5') in 0.097049 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 134.045583 seconds.
-  path: Assets/ToonyTinyPeople/TT_soldiers_Demo/Demo_sample_scene/TTS_Demo_sample_scene.unity
-  artifactKey: Guid(8ed749aca8d14c149b162c1588ef08c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonyTinyPeople/TT_soldiers_Demo/Demo_sample_scene/TTS_Demo_sample_scene.unity using Guid(8ed749aca8d14c149b162c1588ef08c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f17969d299eaad15661bb2db7ef1fd1f') in 0.054188 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.021257 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.430 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2663 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 118.1 MB.
-System memory in use after: 118.2 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3206.
-Total: 3.416000 ms (FindLiveObjects: 0.360900 ms CreateObjectMapping: 0.226300 ms MarkObjects: 2.721400 ms  DeleteObjects: 0.105800 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3731.
+Total: 4.914700 ms (FindLiveObjects: 0.598500 ms CreateObjectMapping: 0.379700 ms MarkObjects: 3.822400 ms  DeleteObjects: 0.112400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008336 seconds.
+Registered in 0.004739 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.317 seconds
+- Completed reload, in  1.333 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.45 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2661 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 118.0 MB.
-System memory in use after: 118.2 MB.
+Unloading 2662 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.4 MB.
+System memory in use after: 170.6 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3209.
-Total: 8.083700 ms (FindLiveObjects: 0.675600 ms CreateObjectMapping: 0.567900 ms MarkObjects: 6.629200 ms  DeleteObjects: 0.207300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006887 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.61 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.161 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.64 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2661 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 118.0 MB.
-System memory in use after: 118.2 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3212.
-Total: 8.310300 ms (FindLiveObjects: 1.124300 ms CreateObjectMapping: 0.529000 ms MarkObjects: 6.448400 ms  DeleteObjects: 0.203700 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3734.
+Total: 3.632400 ms (FindLiveObjects: 0.397900 ms CreateObjectMapping: 0.199300 ms MarkObjects: 2.947300 ms  DeleteObjects: 0.086700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 644.380753 seconds.
-  path: Assets/ToonyTinyPeople/TT_soldiers_Demo/prefab/TT_Soldiers_Demo.prefab
-  artifactKey: Guid(5bf81c1e7c3fa764c9ad1ad61f333094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonyTinyPeople/TT_soldiers_Demo/prefab/TT_Soldiers_Demo.prefab using Guid(5bf81c1e7c3fa764c9ad1ad61f333094) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (New Animator Controller) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (New Animator Controller) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
- -> (artifact id: 'd507961df124644bc69c2c6a8179b8d7') in 0.203569 seconds 
+  Time since last request: 943.736993 seconds.
+  path: Assets/Bullet2(1).prefab
+  artifactKey: Guid(a597c201835f4d143bdd6273e5e0c12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullet2(1).prefab using Guid(a597c201835f4d143bdd6273e5e0c12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34423f98f85dce1d2e916326a0534c0f') in 0.135634 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005946 seconds.
+Registered in 0.004978 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.27 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.980 seconds
+- Completed reload, in  1.637 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.41 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2661 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 118.1 MB.
-System memory in use after: 118.3 MB.
+Unloading 2662 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.4 MB.
+System memory in use after: 170.7 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3216.
-Total: 6.893800 ms (FindLiveObjects: 0.582700 ms CreateObjectMapping: 0.473400 ms MarkObjects: 5.654900 ms  DeleteObjects: 0.178400 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3738.
+Total: 8.444700 ms (FindLiveObjects: 0.909200 ms CreateObjectMapping: 0.565100 ms MarkObjects: 6.746400 ms  DeleteObjects: 0.220100 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
