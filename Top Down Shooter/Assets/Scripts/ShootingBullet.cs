@@ -10,12 +10,14 @@ public class ShootingBullet : MonoBehaviour
 
     public float bulletForce = 20f;
 
+    private bool canshoot = false;
+
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1") &&(!canshoot) )
         {
-            Shoot();
+            StartCoroutine (FireShot ());
         }
     }
 
@@ -25,5 +27,14 @@ public class ShootingBullet : MonoBehaviour
         Rigidbody rd = bullet.GetComponent<Rigidbody>();
         rd.AddForce(firePoint.up * bulletForce, ForceMode.Impulse);
 
+    }
+         
+    IEnumerator FireShot() {
+         
+             canshoot = true;
+             Shoot ();
+             yield return new WaitForSeconds (0.5f);
+             canshoot = false;
+ 
     }
 }
