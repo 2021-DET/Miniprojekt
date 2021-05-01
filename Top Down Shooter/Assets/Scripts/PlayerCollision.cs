@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerCollision : MonoBehaviour
 {
-    public int Respawn = 0;
+    public int Respawn = 1;
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.collider.tag == "Enemy")
