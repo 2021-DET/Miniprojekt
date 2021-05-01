@@ -8,9 +8,9 @@ public class Player : MonoBehaviour
    
    public float rotSpeed = 2f;
 
-   public float jumpPush = 5f;
+   public float jumpPush = 10f;
 
-   public float extraGravity = -10f;
+   public float extraGravity = -15f;
 
    private Vector3 moveVector;
 
@@ -19,6 +19,8 @@ public class Player : MonoBehaviour
    private Rigidbody rd;
 
    private Animator anim;
+
+    private bool canJump = false;
 
    //private bool onGround = false;
 
@@ -56,19 +58,29 @@ public class Player : MonoBehaviour
         transform.Rotate(rotVector);
         transform.Translate(moveVector);
 
-        // Springen 
-
         //RaycastHit hitInfo;
-        
+
         //onGround = Physics.Raycast(transform.position + (Vector3.up * 0.1f) , Vector3.down , out hitInfo , 0.1f);
-        if(Input.GetAxis("Jump") > 0f  )
+        if (Input.GetButtonDown("Jump") && !(canJump))
         {
+            StartCoroutine( Jumping());
+        }
+    }
+
+    // Springen 
+    private void Jump()
+    {
             Vector3 power = rd.velocity;
             power.y = jumpPush;
             rd.velocity = power;
-        }
-        rd.AddForce (new Vector3 ( 0f , extraGravity , 0f ));
+            //rd.AddForce(new Vector3(0f, extraGravity, 0f));
+    }
 
-
+    IEnumerator Jumping()
+    {
+        canJump = true;
+        Jump();
+        yield return new WaitForSeconds(1.5f);
+        canJump = false;
     }
 }
