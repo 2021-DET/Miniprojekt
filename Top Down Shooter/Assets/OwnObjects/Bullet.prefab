@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 253445019526266410}
   m_Layer: 0
   m_Name: Bullet
-  m_TagString: Untagged
+  m_TagString: Hitter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61,8 +61,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.31459326, y: 0.37379277, z: 0.14278577}
+  m_Center: {x: -0.02372849, y: 0.1550362, z: 0.004591048}
 --- !u!1 &7425482639251295189
 GameObject:
   m_ObjectHideFlags: 0
