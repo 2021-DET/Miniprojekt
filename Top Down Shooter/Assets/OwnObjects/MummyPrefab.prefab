@@ -195,6 +195,7 @@ MonoBehaviour:
   isDead: 0
   player: {fileID: 1935059090257746173, guid: 105e1bb407a13c24a91f2369b3125e58, type: 3}
   speed: 5
+  explosionPrototype: {fileID: 100006, guid: 4575df893a6e3f64a8283dee38413a34, type: 3}
 --- !u!1 &2283716014949742236
 GameObject:
   m_ObjectHideFlags: 0

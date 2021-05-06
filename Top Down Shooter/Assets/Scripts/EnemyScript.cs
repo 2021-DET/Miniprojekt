@@ -9,6 +9,7 @@ public class EnemyScript : MonoBehaviour
     public float speed = 6f;
     private Rigidbody rb;
     float rotationSpeed = 1f;
+    public GameObject explosionPrototype;
 
 
     // Start is called before the first frame update
@@ -25,6 +26,7 @@ public class EnemyScript : MonoBehaviour
     {
         if (isDead == true)
         {
+            Instantiate (explosionPrototype , transform.position , transform.rotation);
             Destroy(this.gameObject, 0f);
         }
 
