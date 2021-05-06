@@ -5,12 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class PlayerCollision : MonoBehaviour
 {
-    public int Respawn = 1;
+    public int nextMenu = 2;
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.collider.tag == "Enemy")
         {
-            SceneManager.LoadScene(Respawn);
+            SceneManager.LoadScene(nextMenu);
         }
     }
 }

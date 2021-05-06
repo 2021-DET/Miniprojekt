@@ -6,7 +6,7 @@ public class Player : MonoBehaviour
 {
    public float speed = 10f;
    
-   public float rotSpeed = 2f;
+   public float rotSpeed = 1f;
 
    public float jumpPush = 10f;
 
