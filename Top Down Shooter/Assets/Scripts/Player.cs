@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -20,9 +21,11 @@ public class Player : MonoBehaviour
 
    private Animator anim;
 
-    private bool canJump = false;
+   private bool canJump = false;
 
-   //private bool onGround = false;
+   public int nextMenu = 2;
+
+    //private bool onGround = false;
 
     void Start()
     {
@@ -64,6 +67,11 @@ public class Player : MonoBehaviour
         if (Input.GetButtonDown("Jump") && !(canJump))
         {
             StartCoroutine( Jumping());
+        }
+
+        if (gameObject.transform.position.y <= -5f)
+        {
+            SceneManager.LoadScene(nextMenu);
         }
     }
 
