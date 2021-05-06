@@ -26,9 +26,8 @@ public class ShootingBullet : MonoBehaviour
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         Rigidbody rd = bullet.GetComponent<Rigidbody>();
         rd.AddForce(firePoint.up * bulletForce, ForceMode.Impulse);
-
     }
-         
+
     IEnumerator FireShot() {
          
              canshoot = true;

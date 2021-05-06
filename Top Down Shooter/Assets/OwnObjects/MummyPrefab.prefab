@@ -105,6 +105,7 @@ GameObject:
   - component: {fileID: 2283716014940243228}
   - component: {fileID: -1537694859990852328}
   - component: {fileID: -68575862046551430}
+  - component: {fileID: 2297986556331516261}
   m_Layer: 0
   m_Name: MummyPrefab
   m_TagString: Enemy
@@ -179,6 +180,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.85186917, y: 1.080981, z: 0.81047165}
   m_Center: {x: 0.0024187267, y: 0.54920197, z: 0.08283137}
+--- !u!114 &2297986556331516261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2283716014949742234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a438b8cfec76675479307c32dd3318a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDead: 0
 --- !u!1 &2283716014949742236
 GameObject:
   m_ObjectHideFlags: 0
