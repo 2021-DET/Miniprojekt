@@ -193,6 +193,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDead: 0
+  player: {fileID: 1935059090257746173, guid: 105e1bb407a13c24a91f2369b3125e58, type: 3}
+  speed: 5
 --- !u!1 &2283716014949742236
 GameObject:
   m_ObjectHideFlags: 0
