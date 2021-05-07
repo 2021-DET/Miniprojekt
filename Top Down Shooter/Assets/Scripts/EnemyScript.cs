@@ -6,17 +6,17 @@ public class EnemyScript : MonoBehaviour
 {
     public bool isDead = false;
     public GameObject player;
-    public float speed = 6f;
+    public float speed = 4f;
     private Rigidbody rb;
     float rotationSpeed = 1f;
     public GameObject explosionPrototype;
-
+    public GameObject score;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = this.GetComponent<Rigidbody>();
-
+        score = GameObject.FindGameObjectWithTag("Canvas") as GameObject;
         // get target object tobe rotated at
         player = GameObject.FindGameObjectWithTag("Player") as GameObject;
     }
@@ -27,6 +27,10 @@ public class EnemyScript : MonoBehaviour
         if (isDead == true)
         {
             Instantiate (explosionPrototype , transform.position , transform.rotation);
+            if (score != null)
+            {
+                score.GetComponent<ScoreScript>().scoreValue++;
+            }
             Destroy(this.gameObject, 0f);
         }
 
