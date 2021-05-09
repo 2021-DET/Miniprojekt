@@ -2,27 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * Script to manage the actions happening with the bullet
+ */ 
 public class BulletScript : MonoBehaviour
 {
-
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    // collision with object
     private void OnCollisionEnter(Collision collision)
     {
+        // if it hits an enemy
         if (collision.transform.tag == "Enemy")
         {
             EnemyScript enemyScript = collision.transform.GetComponent<EnemyScript>();
             enemyScript.isDead = true;
         }
+        // delete the bullet after a small delay
         Destroy(this.gameObject, 0.1f);
     }
 }
