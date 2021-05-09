@@ -216,14 +216,14 @@ MonoBehaviour:
   - name: Default Wave
     enemy: {fileID: 2283716014949837498, guid: 2e4af1696a8feed43b88d98b71b65a43, type: 3}
     count: 4
-    rate: 1
+    rate: 2
   - name: Big Wave
     enemy: {fileID: 2283716014949837498, guid: 2e4af1696a8feed43b88d98b71b65a43, type: 3}
-    count: 5
+    count: 6
     rate: 1
   - name: Biggest Wafe
     enemy: {fileID: 2283716014949837498, guid: 2e4af1696a8feed43b88d98b71b65a43, type: 3}
-    count: 7
+    count: 8
     rate: 1
   spawnPoints:
   - {fileID: 9662075}
@@ -231,7 +231,9 @@ MonoBehaviour:
   - {fileID: 1020358643}
   - {fileID: 1301758715}
   - {fileID: 1859343853}
-  timeBetweenWaves: 7
+  - {fileID: 41055931}
+  - {fileID: 1921787500}
+  timeBetweenWaves: 5
   waveCountdown: 0
 --- !u!4 &68930036
 Transform:

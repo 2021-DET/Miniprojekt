@@ -1,18 +1,24 @@
 using UnityEngine;
 using System.Collections;
 
+/*
+ * Script to spawn enemy objects
+ */ 
 public class WaveSpawner : MonoBehaviour
 {
-
+	// enum for spawning
 	public enum SpawnState { SPAWNING, WAITING, COUNTING };
 
+	/*
+	 * small class for Wave objects
+	 */ 
 	[System.Serializable]
 	public class Wave
 	{
 		public string name;
 		public Transform enemy;
-		public int count;
-		public float rate;
+		public int count; // amount of enemies
+		public float rate; // speed of spawning them
 	}
 
 	public Wave[] waves;
@@ -41,11 +47,12 @@ public class WaveSpawner : MonoBehaviour
 
 	void Start()
 	{
+		// debug
 		if (spawnPoints.Length == 0)
 		{
 			Debug.LogError("No spawn points referenced.");
 		}
-
+		// first countdown
 		waveCountdown = timeBetweenWaves;
 	}
 
@@ -67,11 +74,13 @@ public class WaveSpawner : MonoBehaviour
 		{
 			if (state != SpawnState.SPAWNING)
 			{
+				// coroutine for wave spawning
 				StartCoroutine(SpawnWave(waves[nextWave]));
 			}
 		}
 		else
 		{
+			// count value down
 			waveCountdown -= Time.deltaTime;
 		}
 	}
@@ -127,7 +136,7 @@ public class WaveSpawner : MonoBehaviour
 	void SpawnEnemy(Transform _enemy)
 	{
 		//Debug.Log("Spawning Enemy: " + _enemy.name);
-
+		// spawn enemy at random spawn point
 		Transform _sp = spawnPoints[Random.Range(0, spawnPoints.Length)];
 		Instantiate(_enemy, _sp.position, _sp.rotation);
 	}
